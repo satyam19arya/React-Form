@@ -1,7 +1,11 @@
+import FormValidation from "./components/FormValidation";
+import TravelApp from "./components/TravelApp";
+
 function App() {
   return (
     <div>
-      Hello World!
+      <TravelApp />
+      {/* <FormValidation /> */}
     </div>
   );
 }
