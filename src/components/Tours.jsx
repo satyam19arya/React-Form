@@ -20,8 +20,7 @@ const Tours = ({tours, removeTour}) => {
                         </div>
                         <div className='p-1 text-center'>
                            {readMore ? tour.info : `${tour.info.substring(0, 100)}...`}
-                           <span onClick={readmoreHandler}
-                           >{readMore ? `show-less` : 'read more'}</span>
+                           <span onClick={readmoreHandler}>{readMore ? `show-less` : 'read more'}</span>
                         </div>    
                         <h2 className='text-center'>${tour.price}</h2>
                         <div className='text-center border-solid border-2 mt-2'>
